@@ -12,5 +12,6 @@ public class DetectCollisions : MonoBehaviour
         {
             GameObject.Find("EnemySpawner").SendMessage("GameOver");            
         }
+        Debug.Log("Shot");
     }
 }
